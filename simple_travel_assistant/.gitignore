@@ -1,0 +1,5 @@
+# .gitignore 内容
+.env
+*.pyc
+__pycache__/
+venv/
