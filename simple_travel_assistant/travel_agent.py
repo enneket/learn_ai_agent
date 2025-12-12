@@ -31,9 +31,9 @@ available_tools = {
 # 请根据您使用的服务，将这里替换成对应的凭证和地址
 load_dotenv()
 
-API_KEY = os.getenv("API_KEY")
-BASE_URL = os.getenv("BASE_URL")
-MODEL_ID = os.getenv("MODEL_ID")
+API_KEY = os.getenv("LLM_API_KEY")
+BASE_URL = os.getenv("LLM_BASE_URL")
+MODEL_ID = os.getenv("LLM_MODEL_ID")
 
 llm = OpenAICompatibleClient(
     model=MODEL_ID,

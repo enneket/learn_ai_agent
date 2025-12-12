@@ -1,7 +1,7 @@
 import re
-from llm_client import HelloAgentsLLM
-from tools.tool_executor import ToolExecutor
-from tools.search import search
+from agent_paradigm.llm_client.llm_client import HelloAgentsLLM
+from agent_paradigm.re_act.tools.tool_executor import ToolExecutor
+from agent_paradigm.re_act.tools.search import search
 
 # (此处省略 REACT_PROMPT_TEMPLATE 的定义)
 REACT_PROMPT_TEMPLATE = """
