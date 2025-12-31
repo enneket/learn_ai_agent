@@ -2,10 +2,9 @@ package main
 
 import (
 	"context"
+	"learn_ai_agent/utils/gptr"
 	"log"
 	"os"
-
-	"learn_ai_agent/utils/gptr"
 
 	"github.com/cloudwego/eino-ext/components/model/qwen"
 	"github.com/cloudwego/eino-ext/components/tool/duckduckgo/v2"
