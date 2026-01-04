@@ -38,7 +38,7 @@ func main() {
 
 	arg := flag.Arg(0)
 	if arg == "" {
-		panic("message is required, eg: ./llm -model=ep-xxxx -apikey=xxx 'do you know cloudwego?'")
+		panic("message is required, eg: ./llm 'do you know cloudwego?'")
 	}
 
 	sr, err := reactAgent.Stream(ctx, []*schema.Message{
