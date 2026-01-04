@@ -26,5 +26,12 @@ func main() {
 	}
 	fmt.Println(result)
 	time.Sleep(10 * time.Second)
+
+	info, err := but.Info(ctx)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println(info)
+
 	but.Cleanup()
 }
